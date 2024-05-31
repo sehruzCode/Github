@@ -1,0 +1,15 @@
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    color: $red;
+    @extend %dfCenter;
+
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        @include theme(blue, $red);
+    }
+
+}
